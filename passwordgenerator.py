@@ -10,7 +10,9 @@ tamanho = int(tamanho)
 
 print('\nEssas são as suas senhas: ')
 
-for senha in range(num_senhas):
+for pwrd in range(num_senhas):
     senhas = ''
+    for t in range(tamanho):
+        senhas += random.choice(caracteres)
 
 
